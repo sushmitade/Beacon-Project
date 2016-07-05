@@ -4,10 +4,11 @@ import java.util.List;
 
 public interface UserService {
 
-	User findById(int id);
-    
+ 
     User findBySSO(String sso);
      
+    boolean findBySSO(User user);
+    
     void saveUser(User user);
      
     void updateUser(User user);

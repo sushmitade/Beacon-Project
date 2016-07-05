@@ -61,4 +61,10 @@ public class UserServiceImpl implements UserService {
 		return (user == null || ((id != null) && (user.getId() == id)));
 	}
 
+	@Override
+	public boolean findBySSO(User user) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
